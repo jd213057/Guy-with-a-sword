@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+
+const pixi = require("pixi.js")
 
 function App() {
+  pixi.utils.sayHello();
   return (
     <div className="App">
       <header className="App-header">
